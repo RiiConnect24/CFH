@@ -1,9 +1,9 @@
-if [ "$1" -eq "da" ]
+if [ "$1" == "da" ]
 then
   cp da.html 074
 fi
 
-if [ "$1" -eq "de" ]
+if [ "$1" == "de" ]
 then
   cp de.html 066
   cp de.html 078
@@ -11,12 +11,12 @@ then
   cp de.html 108
 fi
 
-if [ "$1" -eq "el" ]
+if [ "$1" == "el" ]
 then
   cp el.html 079
 fi
 
-if [ "$1" -eq "en" ]
+if [ "$1" == "en" ]
 then
   cp en.html 008
   cp en.html 009
@@ -70,7 +70,7 @@ then
   cp en.html 128
 fi
 
-if [ "$1" -eq "es" ]
+if [ "$1" == "es" ]
 then
   cp es.html 008
   cp es.html 009
@@ -120,12 +120,12 @@ then
   cp es.html 105
 fi
 
-if [ "$1" -eq "fi" ]
+if [ "$1" == "fi" ]
 then
   cp fi.html 076
 fi
 
-if [ "$1" -eq "fr" ]
+if [ "$1" == "fr" ]
 then
   cp fr.html 008
   cp fr.html 009
@@ -178,40 +178,40 @@ then
   cp fr.html 108
 fi
 
-if [ "$1" -eq "it" ]
+if [ "$1" == "it" ]
 then
   cp it.html 083
   cp it.html 108
 fi
 
-if [ "$1" -eq "ja" ]
+if [ "$1" == "ja" ]
 then
   cp ja.html 001
 fi
 
-if [ "$1" -eq "kr" ]
+if [ "$1" == "kr" ]
 then
   cp kr.html 136
 fi
 
-if [ "$1" -eq "nl" ]
+if [ "$1" == "nl" ]
 then
   cp nl.html 067
   cp nl.html 094
 fi
 
-if [ "$1" -eq "no" ]
+if [ "$1" == "no" ]
 then
   cp no.html 096
 fi
 
-if [ "$1" -eq "pt" ]
+if [ "$1" == "pt" ]
 then
   cp pt.html 016
   cp pt.html 098
 fi
 
-if [ "$1" -eq "sv" ]
+if [ "$1" == "sv" ]
 then
   cp sv.html 107
 fi
